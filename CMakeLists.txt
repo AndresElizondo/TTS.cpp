@@ -131,7 +131,7 @@ write_basic_package_version_file(
     COMPATIBILITY SameMajorVersion)
 
 install(FILES ${CMAKE_CURRENT_BINARY_DIR}/tts-config.cmake
-              ${CMAKE_CURRENT_BINARY_DIR}/parer-version.cmake
+              ${CMAKE_CURRENT_BINARY_DIR}/parler-version.cmake
         DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/tts)
 
 configure_file(cmake/tts.pc.in
